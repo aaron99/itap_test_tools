@@ -46,7 +46,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		bodyBytes, _ = ioutil.ReadAll(r.Body)
 	}
 
-	log.Println("")
 	log.Println("--------------")
 	log.Println(string(bodyBytes))
 	log.Println("")

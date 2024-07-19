@@ -1,4 +1,4 @@
-module go_listen_result
+module go_result_listener
 
 go 1.21.3
 
